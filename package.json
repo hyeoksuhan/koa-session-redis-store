@@ -1,6 +1,6 @@
 {
   "name": "koa-session-redis-store",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "redis store for koa-session",
   "main": "index.js",
   "repository": {
