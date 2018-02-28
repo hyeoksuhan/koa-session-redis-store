@@ -1,11 +1,11 @@
 {
-  "name": "koa2-session-redis-store",
+  "name": "koa-session-redis-store",
   "version": "1.0.0",
   "description": "redis store for koa-session",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HanHyeoksu/koa2-session-redis-store.git"
+    "url": "git+https://github.com/HanHyeoksu/koa-session-redis-store.git"
   },
   "author": "hshan <hyeoksu.han@gmail.com>",
   "license": "MIT",
@@ -27,5 +27,6 @@
     "koa-session",
     "session-store",
     "redis"
-  ]
+  ],
+  "readme": "README.md"
 }
