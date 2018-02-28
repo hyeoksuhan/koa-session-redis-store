@@ -17,6 +17,11 @@ const CONFIG = {
 };
 ```
 
+## Install
+```shell
+$ npm install koa-session-redis-store
+```
+
 ## API
 > **Constructor**  
 ```js
