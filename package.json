@@ -1,0 +1,31 @@
+{
+  "name": "koa2-session-redis-store",
+  "version": "1.0.0",
+  "description": "redis store for koa-session",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanHyeoksu/koa2-session-redis-store.git"
+  },
+  "author": "hshan <hyeoksu.han@gmail.com>",
+  "license": "MIT",
+  "engines": ">=4.8.7",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "debug": "^3.1.0",
+    "redis": "^2.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/HanHyeoksu/koa2-session-redis-store/issues"
+  },
+  "homepage": "https://github.com/HanHyeoksu/koa2-session-redis-store#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa2",
+    "koa-session",
+    "session-store",
+    "redis"
+  ]
+}
