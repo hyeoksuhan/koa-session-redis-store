@@ -15,6 +15,19 @@ const CONFIG = {
   store: new RedisStore(),
   // The others options for koa-session
 };
+
+app.use(session(CONFIG, app));
+
+app.use(ctx => {
+  // ignore favicon
+  if (ctx.path === '/favicon.ico') return;
+
+  let n = ctx.session.views || 0;
+  ctx.session.views = ++n;
+  ctx.body = n + ' views';
+});
+
+app.listen(3000);
 ```
 
 ## Install
