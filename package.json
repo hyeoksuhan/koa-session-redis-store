@@ -11,7 +11,6 @@
   "license": "MIT",
   "engines": ">=4.8.7",
   "dependencies": {
-    "bluebird": "^3.5.1",
     "debug": "^3.1.0",
     "redis": "^2.8.0"
   },
