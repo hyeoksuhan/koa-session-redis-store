@@ -9,7 +9,7 @@
   },
   "author": "hshan <hyeoksu.han@gmail.com>",
   "license": "MIT",
-  "engines": ">=4.8.7",
+  "engines": ">=7.6.0",
   "dependencies": {
     "debug": "^3.1.0",
     "redis": "^2.8.0"
